@@ -5,6 +5,6 @@ metadata:
 data:
   config.json: |
     {
-      "userService": "http://api.localhost/",
+      "userService": "http://localhost:30080",
       "utilService": "http://localhost/util/"
     }

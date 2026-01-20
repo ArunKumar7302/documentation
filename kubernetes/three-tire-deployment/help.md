@@ -143,11 +143,11 @@ This approach is **recommended for databases in Kubernetes**.
 
 To Access Backend through Node Port:
 
-    http://localhost:30081
+    http://localhost:30080
 
 To Check if the service is alive:
 
-    http://localhost:30081/health
+    http://localhost:30080/health
 
 Check logs:
 
@@ -176,7 +176,7 @@ Check logs:
 
 Frontend URL:
 
-    http://localhost:30080
+    http://localhost:30081
 
 ---
 
