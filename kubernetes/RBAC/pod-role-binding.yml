@@ -1,0 +1,15 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: pod-kavalan-role-binding
+  namespace: default
+subjects:
+  - kind: ServiceAccount
+    name: pod-kavalan-sa
+    namespace: default
+roleRef:
+  kind: Role
+  name: pod-kavalan-role
+  apiGroup: rbac.authorization.k8s.io
+
+
