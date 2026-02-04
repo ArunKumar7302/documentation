@@ -1,0 +1,10 @@
+replicas: 5
+image: simplebyte/simplybyte-calculator:2.0
+port: 5000
+
+simplybyteService:
+   type: NodePort
+   port: 80
+   targetPort: 5000
+   nodePort: 30080
+
